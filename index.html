@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONAD PUZZLE</title>
+    <audio id="moveSound" src="sounds/move_sound.mp3"></audio>
+    <audio id="puzzleSolvedSound" src="sounds/puzzle_solved_sound.mp3"></audio>
+    <audio id="difficultyChangeSound" src="sounds/toggle_difficulty_sound.mp3"></audio>
+    
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="muteButton"> Sound</button>
+    <div id="ref">
+        <img src="images/mona main.jpg" width="83vh" height="83vh">
+    </div>
+    
+    <div>
+       <h1 id="countdown">
+           10:00
+       </h1>
+    </div>
+    <div id="puzzle_container">
+        <div class="puzzle_block"><img src="images/9.png" width="83vh" height="83vh"></div>
+        <div class="puzzle_block"><img src="images/8.png" width="83vh" height="83vh"></div>
+        <div class="puzzle_block"><img src="images/7.png" width="83vh" height="83vh"></div>
+        <div class="puzzle_block"><img src="images/6.png" width="83vh" height="83vh"></div>
+        <div class="puzzle_block"><img src="images/5.png" width="83vh" height="83vh"></div>
+        <div class="puzzle_block"><img src="images/4.png" width="83vh" height="83vh"></div>
+        <div class="puzzle_block"><img src="images/3.png" width="83vh" height="83vh"></div>
+        <div class="puzzle_block"><img src="images/2.png" width="83vh" height="83vh"></div>
+    </div>
+    <div id="difficulty_container">
+        <div class="difficulty_button active">EASY</div>
+        <div class="difficulty_button">MEDIUM</div>
+        <div class="difficulty_button">HARD</div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
